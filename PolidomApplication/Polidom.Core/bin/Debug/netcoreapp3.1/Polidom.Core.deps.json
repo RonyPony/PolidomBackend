@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Polidom.Core/1.0.0": {
+        "runtime": {
+          "Polidom.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Polidom.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

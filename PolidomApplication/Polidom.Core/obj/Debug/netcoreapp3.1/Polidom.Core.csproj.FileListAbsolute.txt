@@ -1,0 +1,9 @@
+C:\Users\Jorge Terrero\source\repos\PolidomApplication\Polidom.Core\bin\Debug\netcoreapp3.1\Polidom.Core.deps.json
+C:\Users\Jorge Terrero\source\repos\PolidomApplication\Polidom.Core\bin\Debug\netcoreapp3.1\Polidom.Core.dll
+C:\Users\Jorge Terrero\source\repos\PolidomApplication\Polidom.Core\bin\Debug\netcoreapp3.1\Polidom.Core.pdb
+C:\Users\Jorge Terrero\source\repos\PolidomApplication\Polidom.Core\obj\Debug\netcoreapp3.1\Polidom.Core.AssemblyInfoInputs.cache
+C:\Users\Jorge Terrero\source\repos\PolidomApplication\Polidom.Core\obj\Debug\netcoreapp3.1\Polidom.Core.AssemblyInfo.cs
+C:\Users\Jorge Terrero\source\repos\PolidomApplication\Polidom.Core\obj\Debug\netcoreapp3.1\Polidom.Core.csproj.CoreCompileInputs.cache
+C:\Users\Jorge Terrero\source\repos\PolidomApplication\Polidom.Core\obj\Debug\netcoreapp3.1\Polidom.Core.dll
+C:\Users\Jorge Terrero\source\repos\PolidomApplication\Polidom.Core\obj\Debug\netcoreapp3.1\Polidom.Core.pdb
+C:\Users\Jorge Terrero\source\repos\PolidomApplication\Polidom.Core\obj\Debug\netcoreapp3.1\Polidom.Core.csprojAssemblyReference.cache
