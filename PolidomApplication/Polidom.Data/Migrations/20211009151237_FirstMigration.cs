@@ -179,8 +179,8 @@ namespace Polidom.Data.Migrations
                     Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     ReportId = table.Column<int>(nullable: false),
-                    Longitud = table.Column<string>(nullable: true),
-                    Latitude = table.Column<string>(nullable: true)
+                    Longitude = table.Column<decimal>(type: "decimal(18,7)", nullable: false),
+                    Latitude = table.Column<decimal>(type: "decimal(18,7)", nullable: false)
                 },
                 constraints: table =>
                 {

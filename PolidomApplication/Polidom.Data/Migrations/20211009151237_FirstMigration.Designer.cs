@@ -10,7 +10,7 @@ using Polidom.Data.Data;
 namespace Polidom.Data.Migrations
 {
     [DbContext(typeof(PolidomContext))]
-    [Migration("20211008003839_FirstMigration")]
+    [Migration("20211009151237_FirstMigration")]
     partial class FirstMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -159,11 +159,11 @@ namespace Polidom.Data.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Latitude")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<decimal>("Latitude")
+                        .HasColumnType("decimal(18,7)");
 
-                    b.Property<string>("Longitud")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<decimal>("Longitude")
+                        .HasColumnType("decimal(18,7)");
 
                     b.Property<int>("ReportId")
                         .HasColumnType("int");

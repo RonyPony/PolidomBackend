@@ -13,11 +13,11 @@
         /// <summary>
         /// Get or set location's longitude
         /// </summary>
-        public string Longitud { get; set; }
+        public decimal Longitud { get; set; }
 
         /// <summary>
         /// Get or set location's latitude
         /// </summary>
-        public string Latitude { get; set; }
+        public decimal Latitude { get; set; }
     }
 }

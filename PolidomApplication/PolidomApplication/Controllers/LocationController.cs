@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace PolidomApplication.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/locations")]
     [ApiController]
     public class LocationController : ControllerBase
     {
@@ -72,29 +72,14 @@ namespace PolidomApplication.Controllers
         }
 
 
-        [HttpPost]
-        public async Task<IActionResult> PostLocation([FromBody]LocationToRegister locationToRegister)
-        {
-            try
-            {
-                LocationInfo location = _mapper.Map<LocationInfo>(locationToRegister);
-
-                await _locationInfoRepository.CreateLocation(location);
-
-                return StatusCode(201);
-            }
-            catch (Exception e)
-            {
-                return BadRequest(e.Message);
-            }
-        }
-
         [HttpPut]
         public async Task<IActionResult> UpdateLocation([FromBody]LocationToUpdate locationToUpdate)
         {
             try
             {
-                LocationInfo location = _mapper.Map<LocationInfo>(locationToUpdate);
+                LocationInfo location = await _locationService.GetLocationById(locationToUpdate.Id);
+                location.Longitude = locationToUpdate.Longitud;
+                location.Latitude = locationToUpdate.Latitude;
                 await _locationInfoRepository.UpdateLocation(location);
 
                 return Ok();

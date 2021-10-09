@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Polidom.Core.Domains
 {
@@ -26,11 +27,13 @@ namespace Polidom.Core.Domains
         /// <summary>
         /// Get or set location's longitud.
         /// </summary>
-        public string Longitud { get; set; }
+        [Column(TypeName = "decimal(18,7)")]
+        public decimal Longitude { get; set; }
 
         /// <summary>
         /// Get or set location's latitude
         /// </summary>
-        public string Latitude { get; set; }
+        [Column(TypeName = "decimal(18,7)")]
+        public decimal Latitude { get; set; }
     }
 }
