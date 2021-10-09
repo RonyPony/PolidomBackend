@@ -15,14 +15,26 @@ namespace PolidomApplication.Controllers
     [ApiController]
     public class AccountController : ControllerBase
     {
+        #region Fields
+
         private readonly UserManager<Account> _userManager;
         private readonly IMapper _mapper;
 
+        #endregion
+
+        #region Ctor
+
+        /// <summary>
+        /// <paramref name="userManager"/> <see cref="UserManager{Account}"/> class.
+        /// <paramref name="mapper"/> <see cref="IMapper"/> class.
+        /// </summary>
         public AccountController(UserManager<Account> userManager , IMapper mapper)
         {
             _userManager = userManager;
             _mapper = mapper;
         }
+
+        #endregion
 
         [HttpGet]
         public async Task<IActionResult> GetUsers()

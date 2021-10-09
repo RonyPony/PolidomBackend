@@ -13,6 +13,8 @@ namespace PolidomApplication.Mapper
             CreateMap<Account, AccountToUpdate>().ReverseMap();
             CreateMap<Report, ReportToRegister>().ReverseMap();
             CreateMap<Report, ReportToUpdate>().ReverseMap();
+            CreateMap<LocationInfo, LocationToRegister>().ReverseMap();
+            CreateMap<LocationInfo, LocationToUpdate>().ReverseMap();
         }
     }
 }

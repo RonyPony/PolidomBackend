@@ -2,21 +2,36 @@
 using Polidom.Core.Domains;
 using Polidom.Data.Data;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Polidom.Data.Repository
 {
+    /// <summary>
+    /// Represents location repository.
+    /// </summary>
     public class LocationInfoRepository : ILocationInfoRepository
     {
+        #region Fields
+
         private readonly PolidomContext _polidomContext;
 
+        #endregion
+
+        #region Ctor
+
+        /// <summary>
+        /// <paramref name="polidomContext"/> <see cref="PolidomContext"/> class.
+        /// </summary>
         public LocationInfoRepository(PolidomContext polidomContext)
         {
             _polidomContext = polidomContext;
         }
 
+        #endregion
+
+        #region Methods
+
+        /// <inheritdoc/>
         public async Task CreateLocation(LocationInfo location)
         {
             if (location is null)
@@ -26,6 +41,7 @@ namespace Polidom.Data.Repository
             await _polidomContext.SaveChangesAsync();
         }
 
+        /// <inheritdoc/>
         public async Task RemoveLocation(LocationInfo location)
         {
             if (location is null)
@@ -35,6 +51,7 @@ namespace Polidom.Data.Repository
             await _polidomContext.SaveChangesAsync();
         }
 
+        /// <inheritdoc/>
         public async Task UpdateLocation(LocationInfo location)
         {
             if (location is null)
@@ -43,5 +60,7 @@ namespace Polidom.Data.Repository
             _polidomContext.Locations.Update(location);
             await _polidomContext.SaveChangesAsync();
         }
+
+        #endregion
     }
 }

@@ -14,16 +14,30 @@ namespace PolidomApplication.Controllers
     [ApiController]
     public class ReportController : ControllerBase
     {
+
+        #region Fields
+
         private readonly IReportService _reportService;
         private readonly IReportRepository _reportRepository;
         private readonly IMapper _mapper;
 
+        #endregion
+
+        #region Ctor
+
+        /// <summary>
+        /// <paramref name="reportService"/> <see cref="IReportService"/> class.
+        /// <paramref name="reportRepository"/> <see cref="IReportRepository"/> class.
+        /// <paramref name="mapper"/> <see cref="IMapper"/> class.
+        /// </summary>
         public ReportController(IReportService reportService , IReportRepository reportRepository , IMapper mapper)
         {
             _reportService = reportService;
             _reportRepository = reportRepository;
             _mapper = mapper;
         }
+
+        #endregion
 
         [HttpGet]
         public async Task<IActionResult> PostReport()

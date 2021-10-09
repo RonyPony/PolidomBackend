@@ -1,13 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Polidom.Core.Enums
+﻿namespace Polidom.Core.Enums
 {
+    /// <summary>
+    ///  Represent the report options
+    /// </summary>
     public enum ReportType
     {
-        Policial = 1,
-        Violencia = 2
+        /// <summary>
+        /// Police option
+        /// </summary>
+        Police = 1,
+
+        /// <summary>
+        /// Violence option
+        /// </summary>
+        Violence = 2
 
     }
 

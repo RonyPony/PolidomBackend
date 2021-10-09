@@ -6,15 +6,32 @@ using System.Threading.Tasks;
 
 namespace Polidom.Data.Repository
 {
+    /// <summary>
+    /// Represents report repository
+    /// </summary>
     public class ReportRepository : IReportRepository
     {
+        #region Fields
+
         private readonly PolidomContext _polidomContext;
 
+        #endregion
+
+        #region Ctor
+
+        /// <summary>
+        /// <paramref name="polidomContext"/> <see cref="PolidomContext"/> class.
+        /// </summary>
         public ReportRepository(PolidomContext polidomContext)
         {
             _polidomContext = polidomContext;
         }
 
+        #endregion
+
+        #region Methods
+
+        /// <inheritdoc/>
         public async Task CreateReport(Report report)
         {
             if (report is null)
@@ -24,6 +41,7 @@ namespace Polidom.Data.Repository
             await _polidomContext.SaveChangesAsync();
         }
 
+        /// <inheritdoc/>
         public async Task RemoveReport(Report report)
         {
             if (report is null)
@@ -33,6 +51,7 @@ namespace Polidom.Data.Repository
             await _polidomContext.SaveChangesAsync();
         }
 
+        /// <inheritdoc/>
         public async Task UpdateReport(Report report)
         {
             if (report is null)
@@ -41,5 +60,7 @@ namespace Polidom.Data.Repository
             _polidomContext.Reports.Update(report);
             await _polidomContext.SaveChangesAsync();
         }
+
+        #endregion
     }
 }
