@@ -3,7 +3,7 @@ using System;
 
 namespace Polidom.Core.Models
 {
-    public class AccountToRegister
+    public sealed class AccountToRegister
     {
         public string UserName { get; set; }
         public string Name { get; set; }

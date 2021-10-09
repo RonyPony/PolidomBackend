@@ -2,7 +2,7 @@
 
 namespace Polidom.Core.Models
 {
-    public class AccountModel
+    public sealed class AccountModel
     {
         public string Email { get; set; }
         public string UserName { get; set; }

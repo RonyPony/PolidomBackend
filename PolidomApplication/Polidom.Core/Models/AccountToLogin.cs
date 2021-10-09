@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Polidom.Core.Models
 {
-    public class AccountToLogin
+    public sealed class AccountToLogin
     {
         public string Email { get; set; }
         public string Password { get; set; }

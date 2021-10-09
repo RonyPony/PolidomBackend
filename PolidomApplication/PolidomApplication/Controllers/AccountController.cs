@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Polidom.Core.Models;
 using Polidom.Data.Data.identity;
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -28,7 +29,7 @@ namespace PolidomApplication.Controllers
         {
             try
             {
-                var users = await _userManager.Users.Select(user => new AccountModel
+                IList<AccountModel> users = await _userManager.Users.Select(user => new AccountModel
                 {
                     UserName = user.UserName,
                     Email = user.Email,
@@ -51,8 +52,8 @@ namespace PolidomApplication.Controllers
         {
             try
             {
-                var account = _mapper.Map<Account>(accountToRegister);
-                var result = await _userManager.CreateAsync(account, accountToRegister.Password);
+                Account account = _mapper.Map<Account>(accountToRegister);
+                IdentityResult result = await _userManager.CreateAsync(account, accountToRegister.Password);
 
                 if (!result.Succeeded)
                 {
@@ -78,7 +79,7 @@ namespace PolidomApplication.Controllers
         {
             try
             {
-                var account = await _userManager.FindByEmailAsync(accountToLogin.Email);
+                Account account = await _userManager.FindByEmailAsync(accountToLogin.Email);
 
                 if (account is null)
                     throw new Exception("AccountNotFound");
@@ -99,7 +100,7 @@ namespace PolidomApplication.Controllers
         {
             try
             {
-                var account = await _userManager.FindByEmailAsync(accountToUpdate.Email);
+                Account account = await _userManager.FindByEmailAsync(accountToUpdate.Email);
                 account.UserName = accountToUpdate.UserName;
                 account.BornDate = accountToUpdate.BornDate;
                 account.Name = accountToUpdate.Name;

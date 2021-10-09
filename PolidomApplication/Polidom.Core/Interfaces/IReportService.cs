@@ -8,5 +8,6 @@ namespace Polidom.Core.Interfaces
     {
         public Task<IEnumerable<Report>> GetAllReports();
         public Task<Report> GetReportById(int id);
+        public Task<int> ReportCount();
     }
 }

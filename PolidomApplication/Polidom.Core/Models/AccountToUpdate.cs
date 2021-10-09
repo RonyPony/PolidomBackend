@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Polidom.Core.Models
 {
-    public class AccountToUpdate
+    public sealed class AccountToUpdate
     {
         public string UserName { get; set; }
         public string Email { get; set; }

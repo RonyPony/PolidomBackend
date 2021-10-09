@@ -20,7 +20,7 @@ namespace Polidom.Data.Services
 
         public async Task<IEnumerable<Report>> GetAllReports()
         {
-            return await _polidomContext.Reports.ToListAsync();
+            return await _polidomContext.Reports.Include("Ubicacion").ToListAsync();
         }
 
         public async Task<Report> GetReportById(int id)
@@ -28,8 +28,13 @@ namespace Polidom.Data.Services
             if (id == 0)
                 throw new Exception("InvalidId");
 
-            return await _polidomContext.Reports
+            return await _polidomContext.Reports.Include("Ubicacion")
                 .FirstOrDefaultAsync(report => report.Id == id);
+        }
+
+        public async Task<int> ReportCount()
+        {
+            return await _polidomContext.Reports.CountAsync();
         }
     }
 }
