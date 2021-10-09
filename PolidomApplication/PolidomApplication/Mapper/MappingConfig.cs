@@ -9,6 +9,7 @@ namespace PolidomApplication.Mapper
         public MappingConfig()
         {
             CreateMap<Account, AccountToRegister>().ReverseMap();
+            CreateMap<Account, AccountToUpdate>().ReverseMap();
         }
     }
 }
