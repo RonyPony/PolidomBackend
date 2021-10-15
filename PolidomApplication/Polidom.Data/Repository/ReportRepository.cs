@@ -40,6 +40,7 @@ namespace Polidom.Data.Repository
             report.AssignedAuthorityId = false;
             report.CreationDate = DateTime.Now;
             report.IsCompleted = false;
+            report.IsDeleted = false;
 
             _polidomContext.Reports.Add(report);
             await _polidomContext.SaveChangesAsync();
