@@ -16,6 +16,13 @@ namespace Polidom.Core.Interfaces
         public Task<IEnumerable<Report>> GetAllReports();
 
         /// <summary>
+        /// Retrieves all report by account id.
+        /// </summary>
+        /// <param name="accountId">Account's id</param>
+        /// <returns></returns>
+        public Task<IEnumerable<Report>> GetReportsByAccountId(int accountId);
+
+        /// <summary>
         /// Retrieves a especific report data by id
         /// </summary>
         /// <param name="id">Report's id</param>
@@ -27,5 +34,20 @@ namespace Polidom.Core.Interfaces
         /// </summary>
         /// <returns>the count number</returns>
         public Task<int> ReportCount();
+
+        /// <summary>
+        /// Assign a report to authority.
+        /// </summary>
+        /// <param name="reportId">Report's id</param>
+        /// <param name="accountId">Account's id</param>
+        public Task AssignReportToAuthority(int reportId, int accountId);
+
+        /// <summary>
+        /// Adding to report mapping .
+        /// </summary>
+        /// <param name="reportId">Report's id</param>
+        /// <param name="accountId">Account's id</param>
+        /// <returns></returns>
+        public Task AddingReportToAuthority(int reportId, int accountId);
     }
 }

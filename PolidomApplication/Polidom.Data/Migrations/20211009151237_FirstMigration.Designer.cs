@@ -192,7 +192,7 @@ namespace Polidom.Data.Migrations
                     b.Property<int>("ReportType")
                         .HasColumnType("int");
 
-                    b.Property<int>("ReporterUserID")
+                    b.Property<int>("ReporterUserId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");

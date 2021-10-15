@@ -23,7 +23,12 @@ namespace Polidom.Core.Domains
         /// <summary>
         /// Get or set Report's user id.
         /// </summary>
-        public int ReporterUserID { get; set; }
+        public int ReporterUserId { get; set; }
+
+        /// <summary>
+        /// Get or set Report's assigned authority id.
+        /// </summary>
+        public bool AssignedAuthorityId { get; set; }
 
         /// <summary>
         /// Get or set report's register date.
@@ -39,5 +44,10 @@ namespace Polidom.Core.Domains
         /// Get or set Report's description.
         /// </summary>
         public string Description { get; set; }
+
+        /// <summary>
+        /// Get or set Report's completed.
+        /// </summary>
+        public bool IsCompleted { get; set; }
     }
 }

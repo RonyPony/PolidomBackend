@@ -1,9 +1,13 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Polidom.Core.Domains;
+using Polidom.Core.Enums;
 using Polidom.Core.Interfaces;
 using Polidom.Data.Data;
+using Polidom.Data.Data.identity;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace Polidom.Data.Services
@@ -16,6 +20,7 @@ namespace Polidom.Data.Services
         #region Fields
 
         private readonly PolidomContext _polidomContext;
+        private readonly UserManager<Account> _userManager;
 
         #endregion
 
@@ -25,9 +30,44 @@ namespace Polidom.Data.Services
         /// <paramref name="polidomContext"/> <see cref="PolidomContext"/> class.
         /// </summary>
 
-        public ReportService(PolidomContext polidomContext)
+        public ReportService(PolidomContext polidomContext, UserManager<Account> userManager)
         {
             _polidomContext = polidomContext;
+            _userManager = userManager;
+        }
+
+        public async Task AddingReportToAuthority(int reportId, int accountId)
+        {
+             _polidomContext.ReportMappings.Add(new AssignReportMapping { 
+               AccountId = accountId,
+               ReportId = reportId
+            });
+
+            await _polidomContext.SaveChangesAsync();
+        }
+
+        /// <inheritdoc/>
+        public async Task AssignReportToAuthority(int reportId, int accountId)
+        {
+            if (reportId == 0)
+                throw new ArgumentException("InvalidReportId");
+            if (accountId == 0)
+                throw new ArgumentException("InvalidAccountId");
+
+            var account = await _userManager.FindByIdAsync(accountId.ToString());
+
+            if (account.Role == UserRoleType.Admin || account.Role == UserRoleType.Complainant)
+                throw new ArgumentException("RolesInvalidToAssignTheReport");
+
+            if (account is null)
+                throw new ArgumentException("AccountNotFound");
+
+            var foundReport = await _polidomContext.Reports
+                .FirstOrDefaultAsync(report => report.Id == reportId);
+
+            foundReport.AssignedAuthorityId = true;
+
+            await AddingReportToAuthority(reportId, accountId);
         }
 
         #endregion
@@ -48,6 +88,23 @@ namespace Polidom.Data.Services
 
             return await _polidomContext.Reports.Include("Ubicacion")
                 .FirstOrDefaultAsync(report => report.Id == id);
+        }
+
+        /// <inheritdoc/>
+        public async Task<IEnumerable<Report>> GetReportsByAccountId(int accountId)
+        {
+            if (accountId == 0)
+                throw new ArgumentException("InvalidAccountId");
+
+            IList<int> reportsId = await _polidomContext
+                .ReportMappings.Where(report => report.AccountId == accountId)
+                .Select(select => select.ReportId).ToListAsync();
+
+            IEnumerable<Report> reports = await _polidomContext.Reports
+                .Where(report => reportsId.Contains(report.Id))
+                .ToListAsync();
+
+            return reports;
         }
 
         /// <inheritdoc/>

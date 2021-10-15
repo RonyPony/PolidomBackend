@@ -112,5 +112,19 @@ namespace PolidomApplication.Controllers
                 return BadRequest(e.Message);
             }
         }
+
+        [HttpPost("assign")]
+        public async Task<IActionResult> AssignReport([FromQuery] int reportId , [FromQuery] int accountId)
+        {
+            try
+            {
+                await _reportService.AssignReportToAuthority(reportId, accountId);
+                return Ok();
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
     }
 }

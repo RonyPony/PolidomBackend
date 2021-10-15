@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Polidom.Data.Data;
 
 namespace Polidom.Data.Migrations
 {
     [DbContext(typeof(PolidomContext))]
-    partial class PolidomContextModelSnapshot : ModelSnapshot
+    [Migration("20211014221105_addSomePropertiesToDomains")]
+    partial class addSomePropertiesToDomains
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -150,24 +152,6 @@ namespace Polidom.Data.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("Polidom.Core.Domains.AssignReportMapping", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int>("AccountId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ReportId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("ReportMappings");
-                });
-
             modelBuilder.Entity("Polidom.Core.Domains.LocationInfo", b =>
                 {
                     b.Property<int>("Id")
@@ -199,17 +183,11 @@ namespace Polidom.Data.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<bool>("AssignedAuthorityId")
-                        .HasColumnType("bit");
-
                     b.Property<DateTime>("CreationDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("IsCompleted")
-                        .HasColumnType("bit");
 
                     b.Property<int>("ReportType")
                         .HasColumnType("int");
@@ -285,9 +263,6 @@ namespace Polidom.Data.Migrations
                     b.Property<int>("Role")
                         .HasColumnType("int");
 
-                    b.Property<string>("Sector")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
 
@@ -302,6 +277,9 @@ namespace Polidom.Data.Migrations
                         .HasMaxLength(256);
 
                     b.Property<string>("ZipCode")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("sector")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
