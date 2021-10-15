@@ -68,6 +68,8 @@ namespace Polidom.Data.Services
             foundReport.AssignedAuthorityId = true;
 
             await AddingReportToAuthority(reportId, accountId);
+
+            _polidomContext.Reports.Update(foundReport);
         }
 
         #endregion
