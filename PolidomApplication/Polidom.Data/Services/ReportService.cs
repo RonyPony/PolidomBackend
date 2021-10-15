@@ -70,6 +70,8 @@ namespace Polidom.Data.Services
             await AddingReportToAuthority(reportId, accountId);
 
             _polidomContext.Reports.Update(foundReport);
+
+            await _polidomContext.SaveChangesAsync();
         }
 
         #endregion
