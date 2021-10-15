@@ -37,6 +37,11 @@ namespace Polidom.Data.Data
         /// </summary>
         public DbSet<Report> Reports { get; set; }
 
+        /// <summary>
+        /// Get or set context's report mapping.
+        /// </summary>
+        public DbSet<AssignReportMapping> ReportMappings { get; set; }
+
         #endregion
 
     }

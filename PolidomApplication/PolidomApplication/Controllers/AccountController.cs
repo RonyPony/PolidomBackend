@@ -113,11 +113,22 @@ namespace PolidomApplication.Controllers
             try
             {
                 Account account = await _userManager.FindByEmailAsync(accountToUpdate.Email);
+                 
+                if(account is null)
+                {
+                    return BadRequest("AccountNotFound");
+                }
+
                 account.UserName = accountToUpdate.UserName;
-                account.BornDate = accountToUpdate.BornDate;
                 account.Name = accountToUpdate.Name;
                 account.PhoneNumber = accountToUpdate.PhoneNumber;
                 account.Role = accountToUpdate.Role;
+                account.Country = accountToUpdate.Country;
+                account.Location = accountToUpdate.Location;
+                account.Province = accountToUpdate.Province;
+                account.TextDirection = accountToUpdate.TextDirection;
+                account.ZipCode = accountToUpdate.ZipCode;
+                account.Sector = accountToUpdate.Sector;
 
                 await _userManager.UpdateAsync(account);
 
