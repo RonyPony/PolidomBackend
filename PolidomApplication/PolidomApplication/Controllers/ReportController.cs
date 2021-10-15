@@ -86,7 +86,6 @@ namespace PolidomApplication.Controllers
             try
             {
                 Report report = _mapper.Map<Report>(reportToRegister);
-                report.CreationDate = DateTime.Now;
                 await _reportRepository.CreateReport(report);
 
                 return StatusCode(201);
@@ -114,7 +113,7 @@ namespace PolidomApplication.Controllers
         }
 
         [HttpPost("assign")]
-        public async Task<IActionResult> AssignReport([FromQuery] int reportId , [FromQuery] int accountId)
+        public async Task<IActionResult> AssignReport([FromQuery] int reportId , [FromQuery] string accountId)
         {
             try
             {

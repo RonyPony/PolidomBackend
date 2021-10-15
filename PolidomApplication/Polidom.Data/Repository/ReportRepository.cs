@@ -37,6 +37,10 @@ namespace Polidom.Data.Repository
             if (report is null)
                 throw new Exception("InvalidReportRequest");
 
+            report.AssignedAuthorityId = false;
+            report.CreationDate = DateTime.Now;
+            report.IsCompleted = false;
+
             _polidomContext.Reports.Add(report);
             await _polidomContext.SaveChangesAsync();
         }

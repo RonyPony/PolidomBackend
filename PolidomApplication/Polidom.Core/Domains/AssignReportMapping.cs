@@ -7,6 +7,6 @@ namespace Polidom.Core.Domains
         [Key]
         public int Id { get; set; }
         public int ReportId { get; set; }
-        public int AccountId { get; set; }
+        public string AccountId { get; set; }
     }
 }

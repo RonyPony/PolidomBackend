@@ -36,7 +36,7 @@ namespace Polidom.Data.Services
             _userManager = userManager;
         }
 
-        public async Task AddingReportToAuthority(int reportId, int accountId)
+        public async Task AddingReportToAuthority(int reportId, string accountId)
         {
              _polidomContext.ReportMappings.Add(new AssignReportMapping { 
                AccountId = accountId,
@@ -47,11 +47,11 @@ namespace Polidom.Data.Services
         }
 
         /// <inheritdoc/>
-        public async Task AssignReportToAuthority(int reportId, int accountId)
+        public async Task AssignReportToAuthority(int reportId, string accountId)
         {
             if (reportId == 0)
                 throw new ArgumentException("InvalidReportId");
-            if (accountId == 0)
+            if (string.IsNullOrWhiteSpace(accountId))
                 throw new ArgumentException("InvalidAccountId");
 
             var account = await _userManager.FindByIdAsync(accountId.ToString());
@@ -91,13 +91,13 @@ namespace Polidom.Data.Services
         }
 
         /// <inheritdoc/>
-        public async Task<IEnumerable<Report>> GetReportsByAccountId(int accountId)
+        public async Task<IEnumerable<Report>> GetReportsByAccountId(string accountId)
         {
-            if (accountId == 0)
+            if ( string.IsNullOrWhiteSpace(accountId))
                 throw new ArgumentException("InvalidAccountId");
 
             IList<int> reportsId = await _polidomContext
-                .ReportMappings.Where(report => report.AccountId == accountId)
+                .ReportMappings.Where(report => report.AccountId.Equals(accountId) )
                 .Select(select => select.ReportId).ToListAsync();
 
             IEnumerable<Report> reports = await _polidomContext.Reports
