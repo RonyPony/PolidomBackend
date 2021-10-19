@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jorge Terrero\\source\\repos\\PolidomApplication\\Polidom.Core\\Polidom.Core.csproj": {}
+    "C:\\Users\\ronel\\Documents\\proyectos\\PolidomBackend\\PolidomApplication\\Polidom.Core\\Polidom.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jorge Terrero\\source\\repos\\PolidomApplication\\Polidom.Core\\Polidom.Core.csproj": {
+    "C:\\Users\\ronel\\Documents\\proyectos\\PolidomBackend\\PolidomApplication\\Polidom.Core\\Polidom.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jorge Terrero\\source\\repos\\PolidomApplication\\Polidom.Core\\Polidom.Core.csproj",
+        "projectUniqueName": "C:\\Users\\ronel\\Documents\\proyectos\\PolidomBackend\\PolidomApplication\\Polidom.Core\\Polidom.Core.csproj",
         "projectName": "Polidom.Core",
-        "projectPath": "C:\\Users\\Jorge Terrero\\source\\repos\\PolidomApplication\\Polidom.Core\\Polidom.Core.csproj",
-        "packagesPath": "C:\\Users\\Jorge Terrero\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jorge Terrero\\source\\repos\\PolidomApplication\\Polidom.Core\\obj\\",
+        "projectPath": "C:\\Users\\ronel\\Documents\\proyectos\\PolidomBackend\\PolidomApplication\\Polidom.Core\\Polidom.Core.csproj",
+        "packagesPath": "C:\\Users\\ronel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ronel\\Documents\\proyectos\\PolidomBackend\\PolidomApplication\\Polidom.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Jorge Terrero\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ronel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +43,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -54,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

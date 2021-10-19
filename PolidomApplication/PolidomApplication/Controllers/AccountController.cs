@@ -107,6 +107,19 @@ namespace PolidomApplication.Controllers
             }
         }
 
+        [HttpGet("license")]
+        public async Task<bool> validateActive()
+        {
+            try
+            {                
+                return true;
+            }
+            catch (Exception e)
+            {
+                return false;
+            }
+        }
+
         [HttpPut]
         public async Task<IActionResult> UpdateAccount(AccountToUpdate accountToUpdate)
         {
