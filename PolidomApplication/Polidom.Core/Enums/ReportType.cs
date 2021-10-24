@@ -5,15 +5,20 @@
     /// </summary>
     public enum ReportType
     {
-        /// <summary>
-        /// Police option
-        /// </summary>
-        Police = 1,
+        panic=0,
+        robo = 1,
+        atraco = 2,
+        ruido=3,
+        violenciaSecial=4,
+        violenciaFamiliar=5,
+        violenciaCallejera=6,
+        accidenteTrancito=7,
+        vehiculoAbandonado=8,
+        drogas=9,
+        paramedicos=10,
+        bombero=11
 
-        /// <summary>
-        /// Violence option
-        /// </summary>
-        Violence = 2
+
 
     }
 

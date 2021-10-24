@@ -107,6 +107,24 @@ namespace PolidomApplication.Controllers
             }
         }
 
+        [HttpGet("{id}")]
+        public async Task<IActionResult> searchByEmail(String id)
+        {
+            try
+            {
+                Account account = await _userManager.FindByIdAsync(id);
+
+                if (account is null)
+                    throw new Exception("AccountNotFound");
+
+                return Ok(account);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
+
         [HttpGet("license")]
         public async Task<bool> validateActive()
         {
