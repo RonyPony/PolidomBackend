@@ -36,6 +36,7 @@ namespace PolidomApplication
             services.AddTransient<IReportRepository, ReportRepository>();
             services.AddTransient<ILocationInfoRepository, LocationInfoRepository>();
             services.AddTransient<IReportService, ReportService>();
+            services.AddTransient<IPhotoService, PhotoService>();
             services.AddTransient<ILocationService, LocationService>();
             services.AddIdentity<Account, IdentityRole>(opt =>
            {
