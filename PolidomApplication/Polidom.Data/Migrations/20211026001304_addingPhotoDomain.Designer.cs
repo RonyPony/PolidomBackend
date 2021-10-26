@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Polidom.Data.Data;
 
 namespace Polidom.Data.Migrations
 {
     [DbContext(typeof(PolidomContext))]
-    partial class PolidomContextModelSnapshot : ModelSnapshot
+    [Migration("20211026001304_addingPhotoDomain")]
+    partial class addingPhotoDomain
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -157,8 +159,8 @@ namespace Polidom.Data.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("AccountId")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("AccountId")
+                        .HasColumnType("int");
 
                     b.Property<int>("ReportId")
                         .HasColumnType("int");
@@ -233,9 +235,6 @@ namespace Polidom.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsCompleted")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
                     b.Property<int>("ReportType")

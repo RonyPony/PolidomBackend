@@ -16,13 +16,6 @@ namespace Polidom.Data.Data
         {
         }
 
-        //protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        //{
-        //    modelBuilder.Entity<Class>().Property(object => object.property).HasPrecision(12, 10);
-
-        //    base.OnModelCreating(modelBuilder);
-        //}
-
         #endregion
 
         #region DbSet
@@ -41,6 +34,12 @@ namespace Polidom.Data.Data
         /// Get or set context's report mapping.
         /// </summary>
         public DbSet<AssignReportMapping> ReportMappings { get; set; }
+
+
+        /// <summary>
+        /// Get or set context's photo
+        /// </summary>
+        public DbSet<Photo> Photos { get; set; }
 
         #endregion
 
