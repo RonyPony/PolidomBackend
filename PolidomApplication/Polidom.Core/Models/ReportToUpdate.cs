@@ -16,7 +16,7 @@ namespace Polidom.Core.Models
         /// <summary>
         /// Get or set report's user id
         /// </summary>
-        public int ReporterUserID { get; set; }
+        public string ReporterUserID { get; set; }
 
         /// <summary>
         /// Get or set report's ubication
