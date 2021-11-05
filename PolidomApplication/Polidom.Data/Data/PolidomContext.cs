@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Polidom.Core.Domains;
+using Polidom.Data.Configuration;
 using Polidom.Data.Data.identity;
 
 namespace Polidom.Data.Data
@@ -15,6 +16,13 @@ namespace Polidom.Data.Data
         public PolidomContext( DbContextOptions<PolidomContext> options) : base(options)
         {
         }
+
+        //protected override void OnModelCreating(ModelBuilder builder)
+        //{
+
+        //    builder.ApplyConfiguration(new RoleConfiguration());
+            
+        //}
 
         #endregion
 

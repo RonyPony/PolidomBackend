@@ -5,21 +5,60 @@
     /// </summary>
     public enum ReportType
     {
-        panic=0,
-        robo = 1,
-        atraco = 2,
-        ruido=3,
-        violenciaSecial=4,
-        violenciaFamiliar=5,
-        violenciaCallejera=6,
-        accidenteTrancito=7,
-        vehiculoAbandonado=8,
-        drogas=9,
-        paramedicos=10,
-        bombero=11
+        /// <summary>
+        /// Panic option.
+        /// </summary>
+        Panic=1,
 
+        /// <summary>
+        /// Stealing option.
+        /// </summary>
+        Stealing = 2,
 
+        /// <summary>
+        /// Robbery option.
+        /// </summary>
+        Robbery = 3,
 
+        /// <summary>
+        /// Noise option.
+        /// </summary>
+        Noise = 4,
+
+        /// <summary>
+        /// Social violence option.
+        /// </summary>
+        SocialViolence=5,
+
+        /// <summary>
+        /// Domestic Violence option.
+        /// </summary>
+        DomesticViolence=6,
+
+        /// <summary>
+        /// Car accident option.
+        /// </summary>
+        CarAccident=8,
+
+        /// <summary>
+        /// Abandoned vehicle option.
+        /// </summary>
+        AbandonedVehicle=9,
+
+        /// <summary>
+        /// Drugs option.
+        /// </summary>
+        Drugs=10,
+
+        /// <summary>
+        /// Paramedics option.
+        /// </summary>
+        Paramedics=11,
+
+        /// <summary>
+        /// Fire fighters option.
+        /// </summary>
+        Firefighters = 12
     }
 
 }
