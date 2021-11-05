@@ -17,12 +17,12 @@ namespace Polidom.Data.Data
         {
         }
 
-        //protected override void OnModelCreating(ModelBuilder builder)
-        //{
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
 
-        //    builder.ApplyConfiguration(new RoleConfiguration());
-            
-        //}
+            builder.ApplyConfiguration(new RoleConfiguration());
+            base.OnModelCreating(builder);
+        }
 
         #endregion
 

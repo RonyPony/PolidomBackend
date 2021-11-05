@@ -15,21 +15,21 @@ namespace Polidom.Data.Configuration
                 ( 
                    new IdentityRole
                    {
-                       Id = new Guid().ToString(),
+                       Id = "1",
                        Name = "ADMIN",
                        NormalizedName = "Admin",
                        ConcurrencyStamp = string.Empty
                    },
                    new IdentityRole
                    {
-                       Id = new Guid().ToString(),
+                       Id = "2",
                        Name = "AUTHORITY",
                        NormalizedName = "Authority",
                        ConcurrencyStamp = string.Empty
                    },
                    new IdentityRole
                    {
-                       Id = new Guid().ToString(),
+                       Id = "3",
                        Name = "COMPLAINANT",
                        NormalizedName = "Complainant",
                        ConcurrencyStamp = string.Empty
