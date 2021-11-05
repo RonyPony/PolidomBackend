@@ -23,6 +23,13 @@ namespace Polidom.Core.Interfaces
         public Task<IEnumerable<Report>> GetReportsByAccountId(string accountId);
 
         /// <summary>
+        /// Retrieves report assign to account
+        /// </summary>
+        /// <param name="accountId">Account's id</param>
+        /// <returns></returns>
+        public Task<Report> GetReportAssignToAccount(int accountId);
+
+        /// <summary>
         /// Retrieves a especific report data by id
         /// </summary>
         /// <param name="id">Report's id</param>
@@ -43,11 +50,26 @@ namespace Polidom.Core.Interfaces
         public Task AssignReportToAuthority(int reportId, string accountId);
 
         /// <summary>
+        /// Remove a report assigned to authority account.
+        /// </summary>
+        /// <param name="reportId">Report's id</param>
+        /// <param name="accountId">Account's id</param>
+        /// <returns></returns>
+        public Task RemoveReportAssignToAuthority(int reportId, string accountId);
+
+        /// <summary>
         /// Adding to report mapping .
         /// </summary>
         /// <param name="reportId">Report's id</param>
         /// <param name="accountId">Account's id</param>
         /// <returns></returns>
         public Task AddingReportToAuthority(int reportId, string accountId);
+
+        /// <summary>
+        /// Mark the Report 
+        /// </summary>
+        /// <param name="reportId"></param>
+        /// <returns></returns>
+        public Task MarkReportAsComplete(int reportId , string accountId);
     }
 }

@@ -40,7 +40,7 @@ namespace PolidomApplication.Controllers
         #endregion
 
         [HttpGet]
-        public async Task<IActionResult> PostReport()
+        public async Task<IActionResult> GetReports()
         {
             try
             {
@@ -67,6 +67,22 @@ namespace PolidomApplication.Controllers
             }
         }
 
+        [HttpGet("account")]
+        public async Task<IActionResult> GetReportByAccount([FromQuery] int accountId)
+        {
+            try
+            {
+                var report = await _reportService.GetReportAssignToAccount(accountId);
+
+                return Ok(report);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
+
+        [HttpGet("count")]
         public async Task<IActionResult> GetReportCount()
         {
             try
@@ -118,6 +134,34 @@ namespace PolidomApplication.Controllers
             try
             {
                 await _reportService.AssignReportToAuthority(reportId, accountId);
+                return Ok();
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
+    
+        [HttpPatch("mark-as-complete")]
+        public async Task<IActionResult> MarkAsComplete([FromQuery] int reportId , [FromQuery] string accountId)
+        {
+            try
+            {
+                await _reportService.MarkReportAsComplete(reportId, accountId);
+                return Ok();
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
+    
+        [HttpDelete("remove-report")]
+        public async Task<IActionResult> removeAssignReport([FromQuery] int reportId, [FromQuery] string accountId)
+        {
+            try
+            {
+                await _reportService.RemoveReportAssignToAuthority(reportId, accountId);
                 return Ok();
             }
             catch (Exception e)

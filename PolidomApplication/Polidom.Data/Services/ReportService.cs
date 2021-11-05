@@ -56,7 +56,7 @@ namespace Polidom.Data.Services
 
             var account = await _userManager.FindByIdAsync(accountId.ToString());
 
-            if (account.Role == UserRoleType.Admin || account.Role == UserRoleType.Complainant)
+            if (account.Role.Equals(UserRoleType.Admin.ToString()))
                 throw new ArgumentException("RolesInvalidToAssignTheReport");
 
             if (account is null)
@@ -84,6 +84,14 @@ namespace Polidom.Data.Services
             return await _polidomContext.Reports.Include("Ubicacion").ToListAsync();
         }
 
+        public async Task<Report> GetReportAssignToAccount(int accountId)
+        {
+            if (accountId == 0 )
+                throw new ArgumentException("InvalidAccountId");
+
+            return await _polidomContext.Reports.FirstOrDefaultAsync(report => report.ReporterUserId == accountId );
+        }
+         
         /// <inheritdoc/>
         public async Task<Report> GetReportById(int id)
         {
@@ -109,6 +117,49 @@ namespace Polidom.Data.Services
                 .ToListAsync();
 
             return reports;
+        }
+
+        public async Task MarkReportAsComplete(int reportId, string accountId)
+        {
+            if (reportId == 0)
+                throw new ArgumentException("InvalidReportId");
+
+            if (string.IsNullOrWhiteSpace(accountId))
+                throw new ArgumentException("InvalidAccountId");
+
+            var reportMapping = await _polidomContext.ReportMappings.FirstOrDefaultAsync(report => report.ReportId == reportId
+            && report.AccountId.Equals(accountId));
+
+            if (reportMapping is null)
+                throw new ArgumentException("InvalidUserTryToComplete");
+
+            Report foundReport = await _polidomContext.Reports.FirstOrDefaultAsync(report => report.Id == reportId);
+
+            if (foundReport is null)
+                throw new ArgumentException("ReportNotFound");
+
+            foundReport.IsCompleted = true;
+
+            _polidomContext.Reports.Update(foundReport);
+           await  _polidomContext.SaveChangesAsync();
+        }
+
+        /// <inheritdoc/>
+        public async Task RemoveReportAssignToAuthority(int reportId, string accountId)
+        {
+            if (reportId == 0)
+                throw new ArgumentException("InvalidReportId");
+            if (string.IsNullOrWhiteSpace(accountId))
+                throw new ArgumentException("InvalidAccountId");
+
+            var reportMapping = await _polidomContext.ReportMappings.FirstOrDefaultAsync(report => report.ReportId == reportId 
+            && report.AccountId.Equals(accountId));
+
+            if (reportMapping is null)
+                throw new ArgumentException("ReportAssignNotFound");
+
+            _polidomContext.ReportMappings.Remove(reportMapping);
+            await _polidomContext.SaveChangesAsync();
         }
 
         /// <inheritdoc/>
