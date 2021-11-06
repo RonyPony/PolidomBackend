@@ -82,6 +82,20 @@ namespace PolidomApplication.Controllers
             }
         }
 
+        [HttpGet("all/account")]
+        public async Task<IActionResult> GetReportsByAccount([FromQuery] string accountId)
+        {
+            try
+            {
+                IEnumerable<Report> reports = await _reportService.GetReportsByAccountId(accountId);
+                return Ok(reports);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
+
         [HttpGet("count")]
         public async Task<IActionResult> GetReportCount()
         {

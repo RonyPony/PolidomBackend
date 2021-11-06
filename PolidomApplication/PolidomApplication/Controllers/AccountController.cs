@@ -59,6 +59,20 @@ namespace PolidomApplication.Controllers
             }
         }
 
+        [HttpGet("count")]
+        public IActionResult GetUserCount()
+        {
+            try
+            {
+                int userCount = _userManager.Users.Count();
+                return Ok(userCount);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
+
         [HttpPost]
         public async Task<IActionResult> CreateAccount(AccountToRegister accountToRegister)
         {
