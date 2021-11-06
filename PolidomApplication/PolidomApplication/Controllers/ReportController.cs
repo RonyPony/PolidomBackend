@@ -68,7 +68,7 @@ namespace PolidomApplication.Controllers
         }
 
         [HttpGet("account")]
-        public async Task<IActionResult> GetReportByAccount([FromQuery] int accountId)
+        public async Task<IActionResult> GetReportByAccount([FromQuery] string accountId)
         {
             try
             {
