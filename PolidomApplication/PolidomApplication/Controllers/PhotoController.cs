@@ -74,12 +74,12 @@ namespace PolidomApplication.Controllers
         {
             try
             {
-                string[] extensions = new string[] { ".jpg", ".png", ".svg" };
+                string[] extensions = new string[] { ".jpg", ".png", ".svg","jpeg" };
                 var fileName = Path.GetFileName(photoToRegister.Image.FileName);
                 var fileExtension = Path.GetExtension(fileName);
 
                 if (!extensions.Contains(fileExtension))
-                    throw new ArgumentException("InvalidFile");
+                    throw new ArgumentException("{0} is an InvalidFileExtention",fileExtension);
 
                 var foundReport = await _reportService.GetReportById(photoToRegister.ReportId);
 
