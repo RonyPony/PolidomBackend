@@ -12,7 +12,7 @@ namespace Polidom.Core.Contracts
         /// Register a new record of report data.
         /// </summary>
         /// <param name="report">Report's request</param>
-        public Task CreateReport(Report report);
+        public Task<int> CreateReport(Report report);
 
         /// <summary>
         /// Update a specific record of report data.

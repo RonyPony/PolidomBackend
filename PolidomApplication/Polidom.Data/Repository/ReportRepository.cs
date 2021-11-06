@@ -32,7 +32,7 @@ namespace Polidom.Data.Repository
         #region Methods
 
         /// <inheritdoc/>
-        public async Task CreateReport(Report report)
+        public async Task<int> CreateReport(Report report)
         {
             if (report is null)
                 throw new Exception("InvalidReportRequest");
@@ -44,6 +44,7 @@ namespace Polidom.Data.Repository
 
             _polidomContext.Reports.Add(report);
             await _polidomContext.SaveChangesAsync();
+            return report.Id;
         }
 
         /// <inheritdoc/>
