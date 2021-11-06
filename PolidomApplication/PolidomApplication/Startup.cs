@@ -30,12 +30,14 @@ namespace PolidomApplication
           options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
             );
             services.AddAutoMapper(typeof(Startup));
+            services.AddSwaggerGen();
             services.AddDbContext<PolidomContext>(context => 
             context.UseSqlServer(Configuration.GetConnectionString("DefaultConnections") ,
             b => b.MigrationsAssembly("Polidom.Data")));
             services.AddTransient<IReportRepository, ReportRepository>();
             services.AddTransient<ILocationInfoRepository, LocationInfoRepository>();
             services.AddTransient<IReportService, ReportService>();
+            services.AddTransient<IPhotoService, PhotoService>();
             services.AddTransient<ILocationService, LocationService>();
             services.AddIdentity<Account, IdentityRole>(opt =>
            {
@@ -66,6 +68,11 @@ namespace PolidomApplication
             app.UseAuthentication();
             app.UseAuthorization();
 
+            app.UseSwagger();
+            app.UseSwaggerUI(swagger => {
+                swagger.SwaggerEndpoint("/swagger/v1/swagger.json" , "Polidom API V1");
+                swagger.RoutePrefix = string.Empty;
+            });
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

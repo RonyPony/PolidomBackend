@@ -15,9 +15,19 @@ namespace Polidom.Data.Data.identity
         public string Name { get; set; }
 
         /// <summary>
-        /// Get or set user's zipCode
+        /// Get or set user's country
         /// </summary>
-        public string ZipCode { get; set; }
+        public string Country { get; set; }
+
+        /// <summary>
+        /// Get or set user's location.
+        /// </summary>
+        public string Location { get; set; }
+
+        /// <summary>
+        /// Get or set user's Province
+        /// </summary>
+        public string Province { get; set; }
 
         /// <summary>
         /// Get or set user's text direction.
@@ -25,19 +35,11 @@ namespace Polidom.Data.Data.identity
         public string TextDirection { get; set; }
 
         /// <summary>
-        /// Get or set user's country.
+        /// Get or set account's zip code.
         /// </summary>
-        public string Country { get; set; }
+        public string ZipCode { get; set; }
 
-        /// <summary>
-        /// Get or set user's province
-        /// </summary>
-        public string Province { get; set; }
 
-        /// <summary>
-        /// Get or set user's location
-        /// </summary>
-        public string Location { get; set; }
 
         /// <summary>
         /// Get or set user's sector

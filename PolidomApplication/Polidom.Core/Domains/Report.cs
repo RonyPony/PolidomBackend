@@ -49,5 +49,10 @@ namespace Polidom.Core.Domains
         /// Get or set Report's completed.
         /// </summary>
         public bool IsCompleted { get; set; }
+
+        /// <summary>
+        /// Get or set Report's deleted
+        /// </summary>
+        public bool IsDeleted { get; set; }
     }
 }

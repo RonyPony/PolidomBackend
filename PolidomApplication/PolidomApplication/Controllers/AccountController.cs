@@ -107,17 +107,59 @@ namespace PolidomApplication.Controllers
             }
         }
 
+        [HttpGet("{id}")]
+        public async Task<IActionResult> searchByEmail(String id)
+        {
+            try
+            {
+                Account account = await _userManager.FindByIdAsync(id);
+
+                if (account is null)
+                    throw new Exception("AccountNotFound");
+
+                return Ok(account);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
+
+        [HttpGet("license")]
+        public async Task<bool> validateActive()
+        {
+            try
+            {                
+                return true;
+            }
+            catch (Exception e)
+            {
+                return false;
+            }
+        }
+
         [HttpPut]
         public async Task<IActionResult> UpdateAccount(AccountToUpdate accountToUpdate)
         {
             try
             {
                 Account account = await _userManager.FindByEmailAsync(accountToUpdate.Email);
+                 
+                if(account is null)
+                {
+                    return BadRequest("AccountNotFound");
+                }
+
                 account.UserName = accountToUpdate.UserName;
-                account.BornDate = accountToUpdate.BornDate;
                 account.Name = accountToUpdate.Name;
                 account.PhoneNumber = accountToUpdate.PhoneNumber;
                 account.Role = accountToUpdate.Role;
+                account.Country = accountToUpdate.Country;
+                account.Location = accountToUpdate.Location;
+                account.Province = accountToUpdate.Province;
+                account.TextDirection = accountToUpdate.TextDirection;
+                account.ZipCode = accountToUpdate.ZipCode;
+                account.Sector = accountToUpdate.Sector;
 
                 await _userManager.UpdateAsync(account);
 

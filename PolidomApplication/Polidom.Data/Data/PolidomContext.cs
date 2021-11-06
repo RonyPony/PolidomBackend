@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Polidom.Core.Domains;
+using Polidom.Data.Configuration;
 using Polidom.Data.Data.identity;
 
 namespace Polidom.Data.Data
@@ -14,6 +15,13 @@ namespace Polidom.Data.Data
         /// </summary>
         public PolidomContext( DbContextOptions<PolidomContext> options) : base(options)
         {
+        }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+
+            builder.ApplyConfiguration(new RoleConfiguration());
+            base.OnModelCreating(builder);
         }
 
         #endregion
@@ -31,9 +39,10 @@ namespace Polidom.Data.Data
         public DbSet<Report> Reports { get; set; }
 
         /// <summary>
-        /// Get or set context report mapping
+        /// Get or set context's report mapping.
         /// </summary>
         public DbSet<AssignReportMapping> ReportMappings { get; set; }
+
 
         /// <summary>
         /// Get or set context's photo

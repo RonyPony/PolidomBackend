@@ -44,6 +44,29 @@ namespace Polidom.Data.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "1",
+                            ConcurrencyStamp = "",
+                            Name = "ADMIN",
+                            NormalizedName = "Admin"
+                        },
+                        new
+                        {
+                            Id = "2",
+                            ConcurrencyStamp = "",
+                            Name = "AUTHORITY",
+                            NormalizedName = "Authority"
+                        },
+                        new
+                        {
+                            Id = "3",
+                            ConcurrencyStamp = "",
+                            Name = "COMPLAINANT",
+                            NormalizedName = "Complainant"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -157,8 +180,8 @@ namespace Polidom.Data.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("AccountId")
-                        .HasColumnType("int");
+                    b.Property<string>("AccountId")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("ReportId")
                         .HasColumnType("int");
@@ -233,6 +256,9 @@ namespace Polidom.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsCompleted")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
                     b.Property<int>("ReportType")
