@@ -23,7 +23,7 @@ namespace Polidom.Core.Domains
         /// <summary>
         /// Get or set Report's user id.
         /// </summary>
-        public int ReporterUserId { get; set; }
+        public string ReporterUserId { get; set; }
 
         /// <summary>
         /// Get or set Report's assigned authority id.

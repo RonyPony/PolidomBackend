@@ -84,9 +84,9 @@ namespace Polidom.Data.Services
             return await _polidomContext.Reports.Include("Ubicacion").ToListAsync();
         }
 
-        public async Task<Report> GetReportAssignToAccount(int accountId)
+        public async Task<Report> GetReportAssignToAccount(string accountId)
         {
-            if (accountId == 0 )
+            if (accountId == null )
                 throw new ArgumentException("InvalidAccountId");
 
             return await _polidomContext.Reports.FirstOrDefaultAsync(report => report.ReporterUserId == accountId );

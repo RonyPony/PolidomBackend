@@ -27,7 +27,7 @@ namespace Polidom.Core.Interfaces
         /// </summary>
         /// <param name="accountId">Account's id</param>
         /// <returns></returns>
-        public Task<Report> GetReportAssignToAccount(int accountId);
+        public Task<Report> GetReportAssignToAccount(string accountId);
 
         /// <summary>
         /// Retrieves a especific report data by id
