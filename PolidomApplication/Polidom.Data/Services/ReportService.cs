@@ -89,7 +89,13 @@ namespace Polidom.Data.Services
             if (accountId == null )
                 throw new ArgumentException("InvalidAccountId");
 
-            return await _polidomContext.Reports.FirstOrDefaultAsync(report => report.ReporterUserId == accountId );
+            AssignReportMapping mapping = await _polidomContext.ReportMappings
+                .FirstOrDefaultAsync(mapping => mapping.AccountId.Equals(accountId));
+
+            if (mapping is null)
+                throw new ArgumentException("NotReportAssignToAuthorityFound");
+
+            return await _polidomContext.Reports.FirstOrDefaultAsync(report => report.Id == mapping.ReportId);
         }
          
         /// <inheritdoc/>
