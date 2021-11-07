@@ -81,7 +81,8 @@ namespace Polidom.Data.Services
         /// <inheritdoc/>
         public async Task<IEnumerable<Report>> GetAllReports()
         {
-            return await _polidomContext.Reports.Include("Ubicacion").ToListAsync();
+            return await _polidomContext.Reports.Include("Ubicacion")
+                .Where( report => report.ReportType != ReportType.Panic).ToListAsync();
         }
 
         public async Task<Report> GetReportAssignToAccount(string accountId)
