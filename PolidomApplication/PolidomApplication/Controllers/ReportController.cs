@@ -116,9 +116,9 @@ namespace PolidomApplication.Controllers
             try
             {
                 Report report = _mapper.Map<Report>(reportToRegister);
-                await _reportRepository.CreateReport(report);
+                int reportId = await _reportRepository.CreateReport(report);
 
-                return StatusCode(201);
+                return Ok(reportId);
             }
             catch (Exception e)
             {
