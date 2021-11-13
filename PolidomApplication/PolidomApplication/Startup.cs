@@ -31,6 +31,7 @@ namespace PolidomApplication
             );
             services.AddAutoMapper(typeof(Startup));
             services.AddSwaggerGen();
+            services.AddCors();
             services.AddDbContext<PolidomContext>(context => 
             context.UseSqlServer(Configuration.GetConnectionString("DefaultConnections") ,
             b => b.MigrationsAssembly("Polidom.Data")));
@@ -60,7 +61,7 @@ namespace PolidomApplication
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseCors(c=> { c.AllowCredentials().AllowAnyMethod().AllowAnyOrigin().WithOrigins("http://localhost:4200"); });
             app.UseHttpsRedirection();
 
             app.UseRouting();
