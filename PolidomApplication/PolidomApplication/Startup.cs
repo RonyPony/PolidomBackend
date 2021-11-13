@@ -61,7 +61,7 @@ namespace PolidomApplication
             {
                 app.UseDeveloperExceptionPage();
             }
-            app.UseCors(c=> { c.AllowCredentials().AllowAnyMethod().AllowAnyOrigin().WithOrigins("http://localhost:4200"); });
+            app.UseCors(c=> { c.AllowCredentials().AllowAnyMethod().AllowAnyHeader().AllowAnyOrigin().WithOrigins("http://localhost:4200"); });
             app.UseHttpsRedirection();
 
             app.UseRouting();
