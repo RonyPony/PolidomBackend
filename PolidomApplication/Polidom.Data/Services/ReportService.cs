@@ -112,18 +112,17 @@ namespace Polidom.Data.Services
         /// <inheritdoc/>
         public async Task<IEnumerable<Report>> GetReportsByAccountId(string accountId)
         {
-            if ( string.IsNullOrWhiteSpace(accountId))
+            if (string.IsNullOrWhiteSpace(accountId))
                 throw new ArgumentException("InvalidAccountId");
 
-            IList<int> reportsId = await _polidomContext
-                .ReportMappings.Where(report => report.AccountId.Equals(accountId) )
-                .Select(select => select.ReportId).ToListAsync();
+            var account = await _userManager.FindByIdAsync(accountId);
 
-            IEnumerable<Report> reports = await _polidomContext.Reports
-                .Where(report => reportsId.Contains(report.Id))
+            if (account is null)
+                throw new ArgumentException("AccountNotFound");
+
+            return await _polidomContext.Reports
+                .Where(report => report.ReporterUserId.Equals(accountId))
                 .ToListAsync();
-
-            return reports;
         }
 
         public async Task MarkReportAsComplete(int reportId, string accountId)
