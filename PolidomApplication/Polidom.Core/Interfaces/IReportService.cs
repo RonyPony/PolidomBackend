@@ -35,6 +35,11 @@ namespace Polidom.Core.Interfaces
         /// <param name="id">Report's id</param>
         /// <returns>a report</returns>
         public Task<Report> GetReportById(int id);
+        /// <summary>
+        /// Retrieves panic report data 
+        /// </summary>
+        /// <returns>a report list</returns>
+        public Task<IEnumerable<Report>> GetPanicReport();
 
         /// <summary>
         /// Retrieves a count of report data stored

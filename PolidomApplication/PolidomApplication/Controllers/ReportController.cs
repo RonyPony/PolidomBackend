@@ -67,6 +67,20 @@ namespace PolidomApplication.Controllers
             }
         }
 
+        [HttpGet("panic")]
+        public async Task<IActionResult> GetPanicReport()
+        {
+            try
+            {
+                IEnumerable<Report >reports = await _reportService.GetPanicReport();
+                return Ok(reports);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+        }
+
         [HttpGet("account")]
         public async Task<IActionResult> GetReportByAccount([FromQuery] string accountId)
         {

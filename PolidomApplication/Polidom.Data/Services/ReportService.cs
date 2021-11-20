@@ -85,6 +85,13 @@ namespace Polidom.Data.Services
                 .Where( report => report.ReportType != ReportType.Panic).ToListAsync();
         }
 
+        public async Task<IEnumerable<Report>> GetPanicReport()
+        {
+            return await _polidomContext.Reports
+                .Where(report => report.ReportType.Equals(ReportType.Panic))
+                .ToListAsync();
+        }
+
         public async Task<Report> GetReportAssignToAccount(string accountId)
         {
             if (accountId == null )
@@ -145,6 +152,7 @@ namespace Polidom.Data.Services
                 throw new ArgumentException("ReportNotFound");
 
             foundReport.IsCompleted = true;
+            foundReport.AssignedAuthorityId = false;
 
             _polidomContext.Reports.Update(foundReport);
            await  _polidomContext.SaveChangesAsync();
