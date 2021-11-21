@@ -43,6 +43,7 @@ namespace PolidomApplication.Controllers
             {
                 IList<AccountModel> users = await _userManager.Users.Select(user => new AccountModel
                 {
+                    id=user.Id,
                     UserName = user.UserName,
                     Email = user.Email,
                     Name = user.Name,

@@ -9,6 +9,11 @@ namespace Polidom.Core.Models
     public sealed class AccountModel
     {
         /// <summary>
+        /// Get or set account's id
+        /// </summary>
+        [JsonProperty("id")]
+        public string id { get; set; }
+        /// <summary>
         /// Get or set account's email
         /// </summary>
         [JsonProperty("email")]
