@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "nNrMuU80uLmbrB8bLxBII4/1E56EDTwa1cLJYOjmIHqTGEfyhYWgiz2rNpsISsvASH680H+ixMF/q93Nq87L8A==",
+  "dgSpecHash": "hb3qOMnbDlaMJ3TWRN1KDBn/aBl8lve6zo1B0l1lmxnOngj7zZ7TJv0P3A8U5WJUZ1ANQQFERvTKK95WMqYJIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ronel\\Documents\\proyectos\\PolidomBackend\\PolidomApplication\\Polidom.Core\\Polidom.Core.csproj",
+  "projectFilePath": "/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/Polidom.Core/Polidom.Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ronel\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "/Users/ronelcruz/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

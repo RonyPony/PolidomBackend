@@ -1,19 +1,29 @@
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\Polidom.Core\bin\Debug\netcoreapp3.1\Polidom.Core.deps.json
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\Polidom.Core\bin\Debug\netcoreapp3.1\Polidom.Core.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\Polidom.Core\bin\Debug\netcoreapp3.1\Polidom.Core.pdb
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\Polidom.Core\obj\Debug\netcoreapp3.1\Polidom.Core.AssemblyInfoInputs.cache
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\Polidom.Core\obj\Debug\netcoreapp3.1\Polidom.Core.AssemblyInfo.cs
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\Polidom.Core\obj\Debug\netcoreapp3.1\Polidom.Core.csproj.CoreCompileInputs.cache
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\Polidom.Core\obj\Debug\netcoreapp3.1\Polidom.Core.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\Polidom.Core\obj\Debug\netcoreapp3.1\Polidom.Core.pdb
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\Polidom.Core\obj\Debug\netcoreapp3.1\Polidom.Core.csprojAssemblyReference.cache
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\Polidom.Core\bin\Debug\netcoreapp3.1\Polidom.Core.deps.json
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\Polidom.Core\bin\Debug\netcoreapp3.1\Polidom.Core.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\Polidom.Core\bin\Debug\netcoreapp3.1\Polidom.Core.pdb
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\Polidom.Core\obj\Debug\netcoreapp3.1\Polidom.Core.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\Polidom.Core\obj\Debug\netcoreapp3.1\Polidom.Core.AssemblyInfoInputs.cache
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\Polidom.Core\obj\Debug\netcoreapp3.1\Polidom.Core.AssemblyInfo.cs
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\Polidom.Core\obj\Debug\netcoreapp3.1\Polidom.Core.csproj.CoreCompileInputs.cache
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\Polidom.Core\obj\Debug\netcoreapp3.1\Polidom.Core.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\Polidom.Core\obj\Debug\netcoreapp3.1\Polidom.Core.pdb
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\Polidom.Core\obj\Debug\netcoreapp3.1\Polidom.Core.csproj.AssemblyReference.cache
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/Polidom.Core/bin/Debug/netcoreapp3.1/Polidom.Core.deps.json
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/Polidom.Core/bin/Debug/netcoreapp3.1/Polidom.Core.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/Polidom.Core/bin/Debug/netcoreapp3.1/Polidom.Core.pdb
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/Polidom.Core/obj/Debug/netcoreapp3.1/Polidom.Core.AssemblyInfoInputs.cache
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/Polidom.Core/obj/Debug/netcoreapp3.1/Polidom.Core.AssemblyInfo.cs
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/Polidom.Core/obj/Debug/netcoreapp3.1/Polidom.Core.csproj.CoreCompileInputs.cache
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/Polidom.Core/obj/Debug/netcoreapp3.1/Polidom.Core.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/Polidom.Core/obj/Debug/netcoreapp3.1/Polidom.Core.pdb
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/Polidom.Core/obj/Debug/netcoreapp3.1/Polidom.Core.csprojAssemblyReference.cache
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/Polidom.Core/bin/Debug/netcoreapp3.1/Polidom.Core.deps.json
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/Polidom.Core/bin/Debug/netcoreapp3.1/Polidom.Core.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/Polidom.Core/bin/Debug/netcoreapp3.1/Polidom.Core.pdb
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/Polidom.Core/obj/Debug/netcoreapp3.1/Polidom.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/Polidom.Core/obj/Debug/netcoreapp3.1/Polidom.Core.AssemblyInfoInputs.cache
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/Polidom.Core/obj/Debug/netcoreapp3.1/Polidom.Core.AssemblyInfo.cs
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/Polidom.Core/obj/Debug/netcoreapp3.1/Polidom.Core.csproj.CoreCompileInputs.cache
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/Polidom.Core/obj/Debug/netcoreapp3.1/Polidom.Core.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/Polidom.Core/obj/Debug/netcoreapp3.1/Polidom.Core.pdb
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/Polidom.Core/obj/Debug/netcoreapp3.1/Polidom.Core.csproj.AssemblyReference.cache
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/Polidom.Core/bin/Debug/netcoreapp3.1/Polidom.Core.deps.json
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/Polidom.Core/bin/Debug/netcoreapp3.1/Polidom.Core.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/Polidom.Core/bin/Debug/netcoreapp3.1/Polidom.Core.pdb
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/Polidom.Core/obj/Debug/netcoreapp3.1/Polidom.Core.csproj.AssemblyReference.cache
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/Polidom.Core/obj/Debug/netcoreapp3.1/Polidom.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/Polidom.Core/obj/Debug/netcoreapp3.1/Polidom.Core.AssemblyInfoInputs.cache
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/Polidom.Core/obj/Debug/netcoreapp3.1/Polidom.Core.AssemblyInfo.cs
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/Polidom.Core/obj/Debug/netcoreapp3.1/Polidom.Core.csproj.CoreCompileInputs.cache
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/Polidom.Core/obj/Debug/netcoreapp3.1/Polidom.Core.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/Polidom.Core/obj/Debug/netcoreapp3.1/Polidom.Core.pdb

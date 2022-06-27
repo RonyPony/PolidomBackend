@@ -31,6 +31,7 @@ namespace PolidomApplication
             );
             services.AddAutoMapper(typeof(Startup));
             services.AddSwaggerGen();
+            
             services.AddCors();
             services.AddDbContext<PolidomContext>(context => 
             context.UseSqlServer(Configuration.GetConnectionString("DefaultConnections") ,
@@ -68,12 +69,12 @@ namespace PolidomApplication
 
             app.UseAuthentication();
             app.UseAuthorization();
-
+            app.UseSwaggerUI();
             app.UseSwagger();
-            app.UseSwaggerUI(swagger => {
-                swagger.SwaggerEndpoint("/swagger/v1/swagger.json" , "Polidom API V1");
-                swagger.RoutePrefix = string.Empty;
-            });
+            //app.UseSwaggerUI(swagger => {
+            //    swagger.SwaggerEndpoint("/swagger/v1/swagger.json" , "Polidom API V1");
+            //    swagger.RoutePrefix = string.Empty;
+            //});
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

@@ -1,143 +1,229 @@
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\PolidomApplication.exe
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\PolidomApplication.deps.json
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\PolidomApplication.runtimeconfig.json
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\PolidomApplication.runtimeconfig.dev.json
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\PolidomApplication.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\PolidomApplication.pdb
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\AutoMapper.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Polidom.Core.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Polidom.Data.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Polidom.Data.pdb
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Polidom.Core.pdb
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\obj\Debug\netcoreapp3.1\PolidomApplication.csprojAssemblyReference.cache
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\obj\Debug\netcoreapp3.1\PolidomApplication.AssemblyInfoInputs.cache
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\obj\Debug\netcoreapp3.1\PolidomApplication.AssemblyInfo.cs
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\obj\Debug\netcoreapp3.1\PolidomApplication.csproj.CoreCompileInputs.cache
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\obj\Debug\netcoreapp3.1\PolidomApplication.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\obj\Debug\netcoreapp3.1\staticwebassets\PolidomApplication.StaticWebAssets.Manifest.cache
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\obj\Debug\netcoreapp3.1\staticwebassets\PolidomApplication.StaticWebAssets.xml
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\obj\Debug\netcoreapp3.1\scopedcss\bundle\PolidomApplication.styles.css
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\obj\Debug\netcoreapp3.1\PolidomApplication.RazorTargetAssemblyInfo.cache
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\obj\Debug\netcoreapp3.1\PolidomApplication.csproj.CopyComplete
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\obj\Debug\netcoreapp3.1\PolidomApplication.dll
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\obj\Debug\netcoreapp3.1\PolidomApplication.pdb
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\obj\Debug\netcoreapp3.1\PolidomApplication.genruntimeconfig.cache
-C:\Users\Jorge Terrero\source\repos\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\PolidomApplication.exe
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\PolidomApplication.deps.json
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\PolidomApplication.runtimeconfig.json
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\PolidomApplication.runtimeconfig.dev.json
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\PolidomApplication.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\PolidomApplication.pdb
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\AutoMapper.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Polidom.Core.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Polidom.Data.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Polidom.Data.pdb
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\bin\Debug\netcoreapp3.1\Polidom.Core.pdb
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\obj\Debug\netcoreapp3.1\PolidomApplication.csproj.AssemblyReference.cache
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\obj\Debug\netcoreapp3.1\PolidomApplication.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\obj\Debug\netcoreapp3.1\PolidomApplication.AssemblyInfoInputs.cache
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\obj\Debug\netcoreapp3.1\PolidomApplication.AssemblyInfo.cs
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\obj\Debug\netcoreapp3.1\PolidomApplication.csproj.CoreCompileInputs.cache
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\obj\Debug\netcoreapp3.1\PolidomApplication.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\obj\Debug\netcoreapp3.1\staticwebassets\PolidomApplication.StaticWebAssets.Manifest.cache
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\obj\Debug\netcoreapp3.1\staticwebassets\PolidomApplication.StaticWebAssets.xml
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\obj\Debug\netcoreapp3.1\scopedcss\bundle\PolidomApplication.styles.css
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\obj\Debug\netcoreapp3.1\PolidomApplication.RazorTargetAssemblyInfo.cache
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\obj\Debug\netcoreapp3.1\PolidomApplication.csproj.CopyComplete
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\obj\Debug\netcoreapp3.1\PolidomApplication.dll
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\obj\Debug\netcoreapp3.1\PolidomApplication.pdb
-C:\Users\ronel\Documents\proyectos\PolidomBackend\PolidomApplication\PolidomApplication\obj\Debug\netcoreapp3.1\PolidomApplication.genruntimeconfig.cache
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/appsettings.Development.json
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/appsettings.json
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/PolidomApplication.exe
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/PolidomApplication.deps.json
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/PolidomApplication.runtimeconfig.json
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/PolidomApplication.runtimeconfig.dev.json
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/PolidomApplication.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/PolidomApplication.pdb
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/AutoMapper.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Identity.Client.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Polidom.Core.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Polidom.Data.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Polidom.Data.pdb
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Polidom.Core.pdb
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.csprojAssemblyReference.cache
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.AssemblyInfoInputs.cache
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.AssemblyInfo.cs
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.csproj.CoreCompileInputs.cache
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/staticwebassets/PolidomApplication.StaticWebAssets.Manifest.cache
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/staticwebassets/PolidomApplication.StaticWebAssets.xml
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/scopedcss/bundle/PolidomApplication.styles.css
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.RazorTargetAssemblyInfo.cache
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.csproj.CopyComplete
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.dll
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.pdb
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.genruntimeconfig.cache
+C:/Users/Jorge Terrero/source/repos/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/appsettings.Development.json
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/appsettings.json
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/PolidomApplication.exe
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/PolidomApplication.deps.json
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/PolidomApplication.runtimeconfig.json
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/PolidomApplication.runtimeconfig.dev.json
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/PolidomApplication.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/PolidomApplication.pdb
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/AutoMapper.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.JsonPatch.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Stores.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Identity.Client.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Newtonsoft.Json.Bson.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Polidom.Core.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Polidom.Data.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Polidom.Data.pdb
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Polidom.Core.pdb
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.csproj.AssemblyReference.cache
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.AssemblyInfoInputs.cache
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.AssemblyInfo.cs
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.csproj.CoreCompileInputs.cache
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/staticwebassets/PolidomApplication.StaticWebAssets.Manifest.cache
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/staticwebassets/PolidomApplication.StaticWebAssets.xml
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/scopedcss/bundle/PolidomApplication.styles.css
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.RazorTargetAssemblyInfo.cache
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.csproj.CopyComplete
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.dll
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.pdb
+C:/Users/ronel/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.genruntimeconfig.cache
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/PolidomApplication.StaticWebAssets.xml
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/PolidomApplication
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/PolidomApplication.deps.json
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/PolidomApplication.runtimeconfig.json
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/PolidomApplication.runtimeconfig.dev.json
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/PolidomApplication.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/PolidomApplication.pdb
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/AutoMapper.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/EntityFramework.SqlServer.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/EntityFramework.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.JsonPatch.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Stores.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.Identity.Client.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Microsoft.OpenApi.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Newtonsoft.Json.Bson.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.Swagger.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/System.CodeDom.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/System.Data.SqlClient.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Polidom.Core.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Polidom.Data.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Polidom.Data.pdb
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/bin/Debug/netcoreapp3.1/Polidom.Core.pdb
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.csproj.AssemblyReference.cache
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.AssemblyInfoInputs.cache
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.AssemblyInfo.cs
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.csproj.CoreCompileInputs.cache
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.MvcApplicationPartsAssemblyInfo.cs
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.MvcApplicationPartsAssemblyInfo.cache
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/staticwebassets/PolidomApplication.StaticWebAssets.Manifest.cache
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.RazorTargetAssemblyInfo.cache
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.csproj.CopyComplete
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.dll
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.pdb
+/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/PolidomApplication/obj/Debug/netcoreapp3.1/PolidomApplication.genruntimeconfig.cache

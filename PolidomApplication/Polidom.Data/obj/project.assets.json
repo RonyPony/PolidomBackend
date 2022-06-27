@@ -5498,39 +5498,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ronel\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/ronelcruz/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ronel\\Documents\\proyectos\\PolidomBackend\\PolidomApplication\\Polidom.Data\\Polidom.Data.csproj",
+      "projectUniqueName": "/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/Polidom.Data/Polidom.Data.csproj",
       "projectName": "Polidom.Data",
-      "projectPath": "C:\\Users\\ronel\\Documents\\proyectos\\PolidomBackend\\PolidomApplication\\Polidom.Data\\Polidom.Data.csproj",
-      "packagesPath": "C:\\Users\\ronel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ronel\\Documents\\proyectos\\PolidomBackend\\PolidomApplication\\Polidom.Data\\obj\\",
+      "projectPath": "/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/Polidom.Data/Polidom.Data.csproj",
+      "packagesPath": "/Users/ronelcruz/.nuget/packages/",
+      "outputPath": "/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/Polidom.Data/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ronel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/ronelcruz/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\ronel\\Documents\\proyectos\\PolidomBackend\\PolidomApplication\\Polidom.Core\\Polidom.Core.csproj": {
-              "projectPath": "C:\\Users\\ronel\\Documents\\proyectos\\PolidomBackend\\PolidomApplication\\Polidom.Core\\Polidom.Core.csproj"
+            "/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/Polidom.Core/Polidom.Core.csproj": {
+              "projectPath": "/Users/ronelcruz/Documents/proyectos/PolidomBackend/PolidomApplication/Polidom.Core/Polidom.Core.csproj"
             }
           }
         }
@@ -5585,7 +5578,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
       }
     }
   }
