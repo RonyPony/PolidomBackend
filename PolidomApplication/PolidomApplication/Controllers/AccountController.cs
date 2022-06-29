@@ -109,10 +109,10 @@ namespace PolidomApplication.Controllers
                 Account account = await _userManager.FindByEmailAsync(accountToLogin.Email);
 
                 if (account is null)
-                    throw new Exception("AccountNotFound");
+                    BadRequest("AccountNotFound");
 
                 if (!await _userManager.CheckPasswordAsync(account, accountToLogin.Password))
-                    throw new Exception("InvalidPassword");
+                    Unauthorized("InvalidPassword");
 
                 return Ok(account);
             }
